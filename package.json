@@ -5,7 +5,7 @@
   "scripts": {
     "lint": "eslint ./src",
     "lint-fix": "eslint ./src --fix",
-    "test": "mocha --require scripts/mocha_runner.js ./src/**/*.spec.js",
+    "test": "mocha --debug --require scripts/mocha_runner.js ./src/**/*.spec.js",
     "start": "webpack-dev-server --content-base example/ --progress --inline --hot --colors"
   },
   "repository": {
